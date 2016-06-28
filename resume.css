@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -190,7 +193,7 @@ div.page-break {
     }
 }
 @page {
-    size: A4 portrait;
+    size: Letter portrait;
     margin: 1.5cm 1.5cm
 }
 html,
@@ -229,7 +232,8 @@ body {
         border-radius: initial!important;
         background: initial!important;
         box-shadow: initial!important;
-        page-break-after: always
+        page-break-after: always;
+        font-family: "Helvetica Neue", serif;
     }
 }
 * {
@@ -247,7 +251,8 @@ html {
 body {
     font-size: 14px;
     font-size: 0.875rem;
-    font-family: "Times New Roman", serif;
+    /*font-family: "Helvetica Neue", serif;*/
+    font-family: "Lato", serif;
     margin: 0 auto;
     color: #444
 }
@@ -294,6 +299,8 @@ header {
 header h1 {
     font-size: 21px;
     font-size: 1.3125rem;
+    font-weight: 700;
+    color: #283A8F;
     margin: 0 0 8px;
     font-weight: 400
 }
@@ -320,13 +327,14 @@ header a {
 section h2 {
     font-size: 16px;
     font-size: 1rem;
-    font-family: "Times New Roman", serif;
+    /*font-family: "Garamond", serif;*/
     font-weight: bold;
     padding-top: 12px;
     margin: 0 0 4px 0;
-    color: #2B8CD2;
+    /*color: #7ecef2;*/
+    color: #5091cd;
     text-transform: uppercase;
-    border-bottom: 0.8px solid #E5E5E5;
+    border-bottom: 0.8px solid #7ecef2;
     padding-bottom: 2px
 }
 section h2 a {
@@ -349,7 +357,7 @@ section summary .job {
     min-width: 7cm
 }
 section summary time {
-    font-family: "Times New Roman", serif;
+   /* font-family: "Garamond", serif;*/
     font-weight: 200;
     color: #777
 }
